@@ -130,4 +130,5 @@ dist
 .pnp.*
 
 bun.lockb
+bun.lock
 html/
