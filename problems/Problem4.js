@@ -4,9 +4,12 @@
 export default indexAndConcat;
 
 function indexAndConcat(arr) {
+    /*
     const out=[]
     for (var i=0; i<arr.length;i++) {
         out[i]=`${i}`+arr[i];
     }
     return out
+    */
+    return arr.map(value => `${arr.indexOf(value)}`+value)
 }

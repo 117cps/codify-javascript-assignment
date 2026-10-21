@@ -4,9 +4,12 @@
 export default multiplyBy;
 
 function multiplyBy(arr, multiplier) {
+    /*
     const out=[];
     for (var i = 0; i<arr.length; i++) {
         out[i]=multiplier * arr[i];
     } 
     return out;
+    */
+   return arr.map(value => multiplier*value);
 }
